@@ -1,6 +1,7 @@
 <!DOCTYPE html>
     <head>
         <title>CSS Practice</title>
+        <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap" rel="stylesheet">
         <style>
             .card{
                 margin:auto;
@@ -8,20 +9,52 @@
                 height:500px;
                 border:1p solid gray
                 border-radius:3%;
+                overflow:hidden;
             }
-        </style>
-        <style>
+
             .prifile_img{
                 width:100px;
                 height:100px:
                 border-radius:50%;
+                padding-top:35px;
+                padding-bottom:35px;
+            }
+
+            .name{
+                text-align:center;
+                font-size:25px;
+                color:red;
+                margin-top:10px;
+                margin-left:20px;
+                margin-right:20px;
+                border-bottom:0.5px solid gray;
+                padding-bottom:10px;
+                font-family:'Antic Slab', cursive
+            }
+
+            intro{
+                text-align:center;
+                overflow-y:scroll;
+                height:220px;
+                padding-right:25px;
+                padding-left:25px;
+            }
+
+            .profile_img_div{
+                margin-bottom:15px;
+                text-align:center;
+                background-color:green;
+            }
+
+            ::-webkit-scrollbar {
+                width:15px;
             }
         </style>
     </head>
     <body>
         <div class = "card">
             <div class = "profile_img_div">
-                <img src=""
+                <img src="photo.jpg", class = 'profile_img'>
             </div>
             <div class = "name">
                 지완쓰
